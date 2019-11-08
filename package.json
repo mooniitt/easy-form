@@ -1,0 +1,9 @@
+{
+  "name": "easy-form",
+  "version": "1.0.0",
+  "description": "easy to use antd form",
+  "main": "index.js",
+  "repository": "git@github.com:mooniitt/easy-form.git",
+  "author": "tao",
+  "license": "MIT"
+}
