@@ -6,14 +6,13 @@ const path = require("path");
 export default [
   // browser-friendly UMD build
   {
-    input: "src/es6.js",
+    input: "lib/index.js",
     output: {
-      file: path.resolve(__dirname, "dist", "file.es6.js"),
+      file: path.resolve(__dirname, "dist", "index.js"),
       format: "es"
     },
     plugins: [
       babel({
-        include: path.resolve(__dirname, "src", "es6.js"),
         exclude: "**/node_modules/**",
         runtimeHelpers: true
       }),
